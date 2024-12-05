@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photographer's Gallery</title>
+<style>
+    body {
+        background-color: #f0e5d8;
+        font-family: Arial, sans-serif;
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    .image-box {
+        margin: 15px;
+        border: 5px solid #ffd700;
+        padding: 10px;
+    }
+    .image-box img {
+        width: 100%;
+        height: auto;
+    }
+    .link {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 16px;
+        color: #0077cc;
+        text-decoration: none;
+    }
+    .center-box {
+        width: 60%;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: #32cd32;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .center-box a {
+        font-size: 24px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+<div class="gallery">
+    <div class="image-box">
+        <img src="path_to_image1.jpg" alt="Painting 1">
+        <a href="link_to_image1.html" class="link">View Image 1</a>
+    </div>
+    <div class="image-box">
+        <img src="path_to_image2.jpg" alt="Photograph 1">
+        <a href="link_to_image2.html" class="link">View Image 2</a>
+    </div>
+    <div class="image-box">
+        <img src="path_to_image3.jpg" alt="Painting 2">
+        <a href="link_to_image3.html" class="link">View Image 3</a>
+    </div>
+    <div class="image-box">
+        <img src="path_to_image4.jpg" alt="Photograph 2">
+        <a href="link_to_image4.html" class="link">View Image 4</a>
+    </div>
+    <!-- Add more images as needed -->
+</div>
+<div class="center-box">
+    <a href="more_images.html">Click here to see more!</a>
+</div>
+</body>
+</html>
